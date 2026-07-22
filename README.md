@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Employee Management API
 
 A RESTful API for managing employee records built with FastAPI and Python.
@@ -228,4 +227,3 @@ This project is provided as-is for educational and development purposes.
 =======
 # Employee-Management-API
 A RESTful API for managing employee records built with FastAPI and Python.
->>>>>>> 02b59446a6bf903b059c9646bdf3ed10627a43e2
