@@ -43,27 +43,6 @@ employees = {
     }
 }
 
-
-# @app.get(
-#     "/employees",
-#     response_model=list[EmployeeResponse]
-# )
-# def get_all_employees():
-
-#     result = []
-
-#     for employee_id, employee in employees.items():
-
-#         result.append(
-#             {
-#                 "id": employee_id,
-#                 **employee
-#             }
-#         )
-
-#     return result
-
-
 def validate_employee(name: str, department: str, salary: int):
 
     if not name.strip():
